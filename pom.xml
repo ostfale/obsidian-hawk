@@ -18,9 +18,21 @@
         <javafx.version>18</javafx.version>
         <ikonli-javafx.version>12.3.1</ikonli-javafx.version>
         <controlsfx.version>11.1.1</controlsfx.version>
+
+        <!-- json -->
+        <gson.version>2.9.0</gson.version>
     </properties>
 
     <dependencies>
+        <!-- json -->
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson.version}</version>
+        </dependency>
+
+        <!-- javafx -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>

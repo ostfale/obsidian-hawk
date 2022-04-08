@@ -5,7 +5,9 @@ module de.ostfale.obsidianhawk {
 
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
+    requires com.google.gson;
 
     opens de.ostfale.obsidianhawk to javafx.fxml;
+    opens de.ostfale.obsidianhawk.model to com.google.gson;
     exports de.ostfale.obsidianhawk;
 }
